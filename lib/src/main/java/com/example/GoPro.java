@@ -69,7 +69,7 @@ public class GoPro {
         if (sAry[1].compareToIgnoreCase("Y") == 0 || sAry[2].compareToIgnoreCase("Y") == 0 || sAry[3].compareToIgnoreCase("Y") == 0){
             hero5black = true;
             answer = 0;
-            System.out.println("1");
+          //  System.out.println("1");
             return answer;
         }
         //hero5 session
@@ -77,7 +77,7 @@ public class GoPro {
             hero5session = true;
             hero5black = true;
             answer = 1;
-            System.out.println("2");
+          //  System.out.println("2");
         }
         //work?
         if (sAry[0].compareToIgnoreCase("Y") == 0){
@@ -85,13 +85,13 @@ public class GoPro {
             if (hero5black && hero5session) {
                 answer = 0;
                // hero5session = false;
-                System.out.println("3");
+              //  System.out.println("3");
             }
         }
         //price?
         if (hero5black && hero5session && sAry[6].compareToIgnoreCase("Y") == 0){
             answer = 1;
-            System.out.println("4");
+           // System.out.println("4");
         }
 
 
